@@ -1,0 +1,25 @@
+.btn {
+    background-color: #399918;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem; 
+    width: 120px; 
+    margin-bottom: 20px;
+  }
+.Add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#search{
+    padding: 3px;
+    margin-bottom: 10px;
+    border: none;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

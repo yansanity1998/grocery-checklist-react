@@ -1,0 +1,21 @@
+.Container {
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ECFFE6;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    color:#399918;
+  }
+body{
+    background-color: #399918;
+}
+.Images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  

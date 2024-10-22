@@ -1,0 +1,33 @@
+img{
+    width: 100%;
+}
+.product-card{
+    border: 1px solid green;
+}
+button{
+    margin-bottom: 10px;
+}
+.product-card #btn-1{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.product-card #btn-2{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.product-card #btn-1:hover{
+    background: rgb(129, 198, 26);
+    color: white;
+}
+.product-card #btn-2:hover{
+    background: rgb(240, 113, 113);
+    color: white;
+}
