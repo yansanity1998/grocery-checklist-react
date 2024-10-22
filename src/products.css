@@ -1,10 +1,10 @@
 img{
-    width: 100%;
+    width: 80%;
 }
 .product-card{
     border: 1px solid green;
 }
-button{
+.product-card button{
     margin-bottom: 10px;
 }
 .product-card #btn-1{

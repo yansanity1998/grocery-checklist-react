@@ -1,13 +1,13 @@
 import React from 'react';
 import './products.css';
 
-function ProductsPictures({ image, productName, onEdit, onRemove }) {
+function ProductsPictures(props) {
   return (
     <div className="product-card">
-      <img src={image} alt={productName} />
-      <h3>{productName}</h3>
-      <button id='btn-1' onClick={onEdit}>Edit</button>
-      <button id='btn-2' onClick={onRemove}>Remove</button>
+      <img src={props.image} alt="image"/>
+      <h3>{props.productName}</h3>
+      <button id='btn-1' onClick={props.onEdit}>Edit</button>
+      <button id='btn-2' onClick={props.onRemove}>Remove</button>
     </div>
   );
 }

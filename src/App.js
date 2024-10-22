@@ -48,7 +48,7 @@ function App() {
         setCurrentProductIndex(null); 
         setModalOpen(true);
       }} />
-      <Category />
+      <Category category1="All" category2="Vegetables" category3="Fruits" category4="Snacks"/>
       <div className='Images'>
         {products.map((product, index) => (
           <ProductsPictures 

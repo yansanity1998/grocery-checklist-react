@@ -1,23 +1,14 @@
 import "./category.css";
 
-function Category() {
+function Category(props) {
     return (
         <div class="filter-sort-container">
             <div class="category-buttons">
-                <button class="category-btn active" data-value="">
-                    <i class="fas fa-th-large"></i> All
-                </button>
-                <button class="category-btn" data-value="Vegetables">
-                    <i class="fas fa-carrot"></i> Vegetables
-                </button>
-                <button class="category-btn" data-value="Fruits">
-                    <i class="fas fa-apple-alt"></i> Fruits
-                </button>
-                <button class="category-btn" data-value="Snacks">
-                    <i class="fas fa-cookie"></i> Snacks
-                </button>
+                <button class="category-btn active" data-value=""> {props.category1} </button>
+                <button class="category-btn" data-value="">{props.category2}</button>
+                <button class="category-btn" data-value="">{props.category3}</button>
+                <button class="category-btn" data-value="">{props.category4}</button>
             </div>
-            
         </div>
     );
   }
